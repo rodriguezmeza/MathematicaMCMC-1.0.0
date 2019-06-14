@@ -1,0 +1,3 @@
+# Distance = 3.91 Mpc
+# Rad	Vobs	errV	Vgas	Vdisk	Vbul	SBdisk	SBbul		
+# kpc	km/s	km/s	km/s	km/s	km/s	L/pc^2	L/pc^2

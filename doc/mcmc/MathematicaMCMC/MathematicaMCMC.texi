@@ -1,0 +1,83 @@
+\input texinfo   @c -*-texinfo-*-
+@c %**start of header
+@setfilename MathematicaMCMC.info
+@settitle MathematicaMCMC 1.0
+@c %**end of header
+     
+@copying
+Manual for MathematicaMCMC version 1.0
+@end copying
+     
+@titlepage
+@title MathematicaMCMC Manual
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+     
+@c Output the table of the contents at the beginning.
+@contents
+     
+@ifnottex
+@node Top
+@top MathematicaMCMC
+     
+@insertcopying
+@end ifnottex
+     
+@menu
+* Introduction:: Summary of features
+* Compilation:: How to compile the code
+* Reading data:: What types of data can be read in
+* Plot types:: Displaying the modeled and observed rotation curve
+* Input parameters:: MCMC numerical parameters, priors, etc.
+* Plotting graphs:: Scatter plots and histograms of particle properties
+* Saving images:: Write out a PDF image of the rotation curves
+* Output results:: Two MCMC bayesian chains, histograms, statistics, G-R values.
+@end menu
+
+
+@node Introduction
+@chapter Introduction
+ 
+ MathematicaMCMC is a Mathematica notebook to analyse data using bayesian MCMC method.
+
+@node Compilation
+@chapter Compilation
+
+Run it using Mathematica
+
+
+@node Reading data
+@chapter Reading data
+
+The notebook case of study is to model DM in galaxies using PISO density profile. The data analysed are rotation curve of spiral galaxies.
+
+The format of the file must be:
+
+Rad	Vobs	 errV	 Vgas Vdisk Vbul SBdisk SBbul
+		
+kpc	km/s	 km/s km/s  km/s  km/s L/pc^2 L/pc^2
+
+@node Plot types
+@chapter Plot types
+
+As a result the notebook will give a pdf file of the observed rotation curve and the model rotation curve with the fitted parameters.
+
+@node Input parameters
+@chapter Input parameters
+
+
+@node Plotting graphs
+@chapter Plotting graphs
+
+
+
+@node Saving images
+@chapter Saving images
+
+@node Output results
+@chapter Output results
+
+
+@bye
