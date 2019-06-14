@@ -12,6 +12,14 @@ without warranty of any kind.
 Basic Installation
 ==================
 
+This is a Mathematica notebook: go to directory 
+
+Mathematica/mcmc/MathematicaMCMC
+
+and open the notebook there with Mathematica. Read at the beginning 
+the guidelines to run it.
+
+
    Briefly, the shell command `./configure && make && make install'
 should configure, build, and install this package.  The following
 more-detailed instructions are generic; see the `README' file for

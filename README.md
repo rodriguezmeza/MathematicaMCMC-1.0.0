@@ -18,7 +18,15 @@ Based in a Mathematica code shared by Tula Bernal
 Paper reference: 
 If you use this code, please cite the reference: L. M. Fernández-Hernández, A. Montiel and Mario A. Rodríguez-Meza, arXiv:1809.06875. 
 
-RUN:  shift-enter on the biggest right bracket ->
+RUN:  
+
+This is a Mathematica notebook: go to directory 
+
+Mathematica/mcmc/MathematicaMCMC
+
+and open the notebook there with Mathematica.
+
+shift-enter on the biggest right bracket ->
 It runs in about one minute.
 
 Case study: 
