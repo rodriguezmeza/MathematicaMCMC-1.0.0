@@ -19,7 +19,7 @@ Paper reference:
 If you use this code, please cite the reference: L. M. Fernández-Hernández, A. Montiel and Mario A. Rodríguez-Meza, arXiv:1809.06875. 
 
 RUN:  shift-enter on the biggest right bracket ->
-It runs in about 6 \[Dash] 7 minutes.
+It runs in about one minute.
 
 Case study: 
 rotation curve galaxy IC 2574; 
