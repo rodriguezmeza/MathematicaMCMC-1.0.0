@@ -298,7 +298,8 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 SUBDIRS = doc
 EXTRA_DIST = tests/mcmc/MathematicaMCMC \
-Mathematica/mcmc/MathematicaMCMC
+Mathematica/mcmc/MathematicaMCMC \
+Readme.md
 
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
