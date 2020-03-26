@@ -16,7 +16,10 @@ Acknowledgements: Tula Bernal, Lizbeth M. Fernández-Hernández and Ariadna Mont
 Based in a Mathematica code shared by Tula Bernal
 
 Paper reference: 
-If you use this code, please cite the reference: L. M. Fernández-Hernández, A. Montiel and Mario A. Rodríguez-Meza, arXiv:1809.06875. 
+If you use this code, please cite the reference: L. M. Fernández-Hernández, A. Montiel and Mario A. Rodríguez-Meza, MNRAS 488, 5127–5144 (2019). 
+
+First clone it:
+git clone https://github.com/rodriguezmeza/MathematicaMCMC-1.0.0.git
 
 RUN:  
 
