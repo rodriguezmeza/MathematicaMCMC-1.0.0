@@ -10,13 +10,15 @@ Mario A. Rodríguez-Meza
 Instituto Nacional de Investigaciones Nucleares
 marioalberto.rodriguez@inin.gob.mx
 Ciudad de México. January 1st, 2019
+Updated: 2020-11-5
+
 
 Acknowledgements: Tula Bernal, Lizbeth M. Fernández-Hernández and Ariadna Montiel 
 
 Based in a Mathematica code shared by Tula Bernal
 
 Paper reference: 
-If you use this code, please cite the reference: L. M. Fernández-Hernández, A. Montiel and Mario A. Rodríguez-Meza, MNRAS 488, 5127–5144 (2019). 
+If you use this code, please cite the reference: L. M. Fernández-Hernández, A. Montiel and Mario A. Rodríguez-Meza, MNRAS 488, 5127–5144 (2019). arXiv:1809.06875. (See the bibtex file format: citation_paper.bibtex)
 
 First clone it:
 git clone https://github.com/rodriguezmeza/MathematicaMCMC-1.0.0.git
@@ -29,6 +31,9 @@ Mathematica/mcmc/MathematicaMCMC
 
 and open the notebook there with Mathematica.
 
+(For a more detailed explanition see at the begining of the Mathematica notebook and in the Readme section i.0.
+)
+
 shift-enter on the biggest right bracket ->
 It runs in about one minute.
 
@@ -38,13 +43,13 @@ data from SPARC catalog, F. Lelli et al., Astron. J. 152, 157 (2016);
 implemented model Pseudo isothermal dark matter density profile;
 two parameters: Subscript[\[Rho], s] and Subscript[r, s].
 
-For a different two parameter density profile model make the appropriate changes in subsubsubsection i.4.2 Rotation curve dark matter model.
+For a different two parameter density profile model make the appropriate changes in subsubsubsection 30.a. Model definitios Equations Rotation curve dark matter model.
 
 For a different rotation curve data, change the line:
 
 RCTable = Import["IC2574_rotmod.txt", "Data"];
 
-in the subsubsection a.3 Input galaxy rotation curve data. Make sure the column types correspond to:
+in the subsubsection 30.b.1 Input galaxy rotation curve data. Make sure the column types correspond to:
 
 (* From de header of the data file: IC2574_rotmod_header.txt :
 # Distance=3.91 Mpc
@@ -72,3 +77,5 @@ Folder Results/PDF
 Folder Results/TXT
 
 Changes only in section or subsections with "(adapt to your needs)"
+
+For more details see at the begining of the Mathematica notebook and in the Readme section i.0.
